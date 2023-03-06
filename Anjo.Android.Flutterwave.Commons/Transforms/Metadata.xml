@@ -6,4 +6,7 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_java_commons']/class[@name='NetworkRequestExecutor_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+
 </metadata>

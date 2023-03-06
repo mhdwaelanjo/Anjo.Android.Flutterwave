@@ -1,9 +1,49 @@
 ﻿<metadata>
-  <!--
+	<!--
   This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
   
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+ 
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveutils.di']/class[@name='WebModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveutils.di']/class[@name='WebModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveutils.verification.web']/class[@name='WebPresenter_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+
+	<remove-node path="/api/package[@name='com.flutterwave.raveutils.verification']/class[@name='AVSVBVFragment_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveutils.verification.AVSVBVFragment']]" />
+	<add-node path="/api/package[@name='com.flutterwave.raveutils.verification']/class[@name='AVSVBVFragment_MembersInjector']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="instance" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='com.flutterwave.raveutils.verification']/class[@name='PinFragment_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveutils.verification.PinFragment']]" />
+	<add-node path="/api/package[@name='com.flutterwave.raveutils.verification']/class[@name='PinFragment_MembersInjector']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="instance" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='com.flutterwave.raveutils.verification.web']/class[@name='WebFragment_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveutils.verification.web.WebFragment']]" />
+	<add-node path="/api/package[@name='com.flutterwave.raveutils.verification.web']/class[@name='WebFragment_MembersInjector']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="instance" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='com.flutterwave.raveutils.verification.web']/class[@name='WebPresenter_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveutils.verification.web.WebPresenter']]" />
+	<add-node path="/api/package[@name='com.flutterwave.raveutils.verification.web']/class[@name='WebPresenter_MembersInjector']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="instance" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='com.flutterwave.raveutils.verification']/class[@name='OTPFragment_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveutils.verification.OTPFragment']]" />
+	<add-node path="/api/package[@name='com.flutterwave.raveutils.verification']/class[@name='OTPFragment_MembersInjector']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="instance" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+
 </metadata>

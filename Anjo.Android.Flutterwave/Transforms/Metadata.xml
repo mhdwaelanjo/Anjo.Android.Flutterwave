@@ -1,9 +1,62 @@
 ﻿<metadata>
-  <!--
+	<!--
   This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
   
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+	<remove-node path="/api/package[@name='com.flutterwave.raveandroid.account']/class[@name='BanksRecyclerAdapter']" />
+	<remove-node path="/api/package[@name='com.flutterwave.raveandroid.card.savedcards']/class[@name='SavedCardRecyclerAdapter']" />
+
+
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.data']/class[@name='DeviceIdGetter_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.data']/class[@name='PhoneNumberObfuscator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.data']/class[@name='EmailObfuscator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.data']/class[@name='PhoneNumberObfuscator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='AccountModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='AchModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='AndroidModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='AndroidModule_ProvidesContextFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='AndroidModule_ProvidesTelephonyManagerFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='BankTransferModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='BarterModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='CardUiModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='FrancModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='GhanaModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='MpesaModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='RwandaModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='SaBankModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='UgandaModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='UkModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='UssdModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.di.modules']/class[@name='ZambiaModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='AccountNoValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='AmountValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='BankCodeValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='BanksMinimum100AccountPaymentValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='BvnValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='CardExpiryValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='CvvValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='DateOfBirthValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='EmailValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='NetworkValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='PhoneValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	 
+	<remove-node path="/api/package[@name='com.flutterwave.raveandroid']/class[@name='RavePayActivity_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.RavePayActivity']]" />
+	<add-node path="/api/package[@name='com.flutterwave.raveandroid']/class[@name='RavePayActivity_MembersInjector']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="instance" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='BanksMinimum100AccountPaymentValidator_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.validators.BanksMinimum100AccountPaymentValidator']]" />
+	<add-node path="/api/package[@name='com.flutterwave.raveandroid.validators']/class[@name='BanksMinimum100AccountPaymentValidator_MembersInjector']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="instance" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+
+
 </metadata>

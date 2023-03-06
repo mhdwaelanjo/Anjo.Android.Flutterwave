@@ -6,4 +6,22 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_remote.di']/class[@name='RemoteModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_remote.di']/class[@name='RemoteModule_GsonFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_remote.di']/class[@name='RemoteModule_ProvidesApiServiceFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_remote.di']/class[@name='RemoteModule_ProvidesBarterApiServiceFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_remote.di']/class[@name='RemoteModule_ProvidesBarterRetrofitFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_remote.di']/class[@name='RemoteModule_ProvidesRetrofitFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_remote']/class[@name='RemoteRepository_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_remote.di']/class[@name='RemoteModule_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_remote.di.RemoteModule']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_remote.di']/class[@name='RemoteModule_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_remote.responses']/class[@name='PollingResponse']" />
+
 </metadata>

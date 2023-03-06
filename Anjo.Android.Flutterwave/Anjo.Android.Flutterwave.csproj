@@ -79,6 +79,10 @@
       <Project>{ef0f554a-eede-4e5b-9a70-1eb65d6fabe2}</Project>
       <Name>Anjo.Android.Flutterwave.Cache</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Anjo.Android.Flutterwave.Commons\Anjo.Android.Flutterwave.Commons.csproj">
+      <Project>{ae00eb15-1362-4ef7-ab7e-73285db5a82a}</Project>
+      <Name>Anjo.Android.Flutterwave.Commons</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Anjo.Android.Flutterwave.Core\Anjo.Android.Flutterwave.Core.csproj">
       <Project>{c90891fc-821b-4c6b-b870-88f31e904a89}</Project>
       <Name>Anjo.Android.Flutterwave.Core</Name>

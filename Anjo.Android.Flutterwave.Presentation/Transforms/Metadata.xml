@@ -6,4 +6,258 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.account']/class[@name='AccountHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ach']/class[@name='AchHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.banktransfer']/class[@name='BankTransferHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.barter']/class[@name='BarterHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.card']/class[@name='CardPaymentHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.card']/class[@name='CardPaymentHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.data']/class[@name='PayloadEncryptor_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.data']/class[@name='PayloadToJsonConverter_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.data']/class[@name='PayloadToJson_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.data.validators']/class[@name='CardNoValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.data.validators']/class[@name='TransactionStatusChecker_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.data.validators']/class[@name='UrlValidator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.account']/class[@name='AccountModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.account']/class[@name='AccountModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.ach']/class[@name='AchModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.ach']/class[@name='AchModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.banktransfer']/class[@name='BankTransferModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.banktransfer']/class[@name='BankTransferModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.barter']/class[@name='BarterModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.barter']/class[@name='BarterModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.card']/class[@name='CardModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.card']/class[@name='CardModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.francmobilemoney']/class[@name='FrancophoneModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.francmobilemoney']/class[@name='FrancophoneModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.ghmobilemoney']/class[@name='GhMobileMoneyModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.ghmobilemoney']/class[@name='GhMobileMoneyModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.mpesa']/class[@name='MpesaModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.mpesa']/class[@name='MpesaModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.rwfmobilemoney']/class[@name='RwfModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.rwfmobilemoney']/class[@name='RwfModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.sabank']/class[@name='SaBankModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.sabank']/class[@name='SaBankModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.ugmomo']/class[@name='UgModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.ugmomo']/class[@name='UgModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.uk']/class[@name='UkModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.uk']/class[@name='UkModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.ussd']/class[@name='UssdModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.ussd']/class[@name='UssdModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.zm']/class[@name='ZmModule_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.di.zm']/class[@name='ZmModule_ProvidesContractFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.francmobilemoney']/class[@name='FrancMobileMoneyHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ghmobilemoney']/class[@name='GhMobileMoneyHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.mpesa']/class[@name='MpesaHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.rwfmobilemoney']/class[@name='RwfMobileMoneyHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.sabankaccount']/class[@name='SaBankAccountHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ugmobilemoney']/class[@name='UgMobileMoneyHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.uk']/class[@name='UkHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ussd']/class[@name='UssdHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.zmmobilemoney']/class[@name='ZmMobileMoneyHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ussd']/class[@name='UssdHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation']/class[@name='RaveNonUIManager']/method[@name='initialize' and count(parameter)=0]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation']/class[@name='RaveNonUIManager']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="Initialize" native="false" return="Com.Flutterwave.Raveandroid.Rave_presentation.RavePayManager" static="false" synchronized="false" visibility="public">
+	  </method>
+  </add-node>
+
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.account']/class[@name='AccountHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.account.AccountHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.account']/class[@name='AccountHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.account']/class[@name='AccountPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.account.AccountPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.account']/class[@name='AccountPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ach']/class[@name='AchHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.ach.AchHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ach']/class[@name='AchHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ach']/class[@name='AchPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.ach.AchPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ach']/class[@name='AchPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.banktransfer']/class[@name='BankTransferHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.banktransfer.BankTransferHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.banktransfer']/class[@name='BankTransferHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.barter']/class[@name='BarterHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.barter.BarterHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.barter']/class[@name='BarterHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.banktransfer']/class[@name='BankTransferPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.banktransfer.BankTransferPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.banktransfer']/class[@name='BankTransferPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.card']/class[@name='CardPaymentHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.card.CardPaymentHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.card']/class[@name='CardPaymentHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.barter']/class[@name='BarterPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.barter.BarterPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.barter']/class[@name='BarterPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.card']/class[@name='CardPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.card.CardPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.card']/class[@name='CardPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.francmobilemoney']/class[@name='FrancMobileMoneyHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.francmobilemoney.FrancMobileMoneyHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.francmobilemoney']/class[@name='FrancMobileMoneyHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.francmobilemoney']/class[@name='FrancophoneMobileMoneyPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.francmobilemoney.FrancophoneMobileMoneyPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.francmobilemoney']/class[@name='FrancophoneMobileMoneyPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ghmobilemoney']/class[@name='GhanaMobileMoneyPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.ghmobilemoney.GhanaMobileMoneyPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ghmobilemoney']/class[@name='GhanaMobileMoneyPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.mpesa']/class[@name='MpesaHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.mpesa.MpesaHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.mpesa']/class[@name='MpesaHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ghmobilemoney']/class[@name='GhMobileMoneyHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.ghmobilemoney.GhMobileMoneyHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ghmobilemoney']/class[@name='GhMobileMoneyHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.mpesa']/class[@name='MpesaPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.mpesa.MpesaPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.mpesa']/class[@name='MpesaPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.rwfmobilemoney']/class[@name='RwfMobileMoneyHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.rwfmobilemoney.RwfMobileMoneyHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.rwfmobilemoney']/class[@name='RwfMobileMoneyHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.sabankaccount']/class[@name='SaBankAccountHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.sabankaccount.SaBankAccountHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.sabankaccount']/class[@name='SaBankAccountHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.rwfmobilemoney']/class[@name='RwfMobileMoneyPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.rwfmobilemoney.RwfMobileMoneyPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.rwfmobilemoney']/class[@name='RwfMobileMoneyPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.sabankaccount']/class[@name='SaBankAccountPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.sabankaccount.SaBankAccountPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.sabankaccount']/class[@name='SaBankAccountPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ugmobilemoney']/class[@name='UgandaMobileMoneyPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.ugmobilemoney.UgandaMobileMoneyPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ugmobilemoney']/class[@name='UgandaMobileMoneyPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.uk']/class[@name='UkBankPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.uk.UkBankPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.uk']/class[@name='UkBankPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ussd']/class[@name='UssdHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.ussd.UssdHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ussd']/class[@name='UssdHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.zmmobilemoney']/class[@name='ZambiaMobileMoneyPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.zmmobilemoney.ZambiaMobileMoneyPaymentManager']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.zmmobilemoney']/class[@name='ZambiaMobileMoneyPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.zmmobilemoney']/class[@name='ZmMobileMoneyHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.zmmobilemoney.ZmMobileMoneyHandler']]"/>
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.zmmobilemoney']/class[@name='ZmMobileMoneyHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ussd']/class[@name='UssdPaymentManager_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.ussd.UssdPaymentManager']]"/>
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ussd']/class[@name='UssdPaymentManager_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.uk']/class[@name='UkHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.uk.UkHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.uk']/class[@name='UkHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
+  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ugmobilemoney']/class[@name='UgMobileMoneyHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.ugmobilemoney.UgMobileMoneyHandler']]" />
+  <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ugmobilemoney']/class[@name='UgMobileMoneyHandler_MembersInjector']">
+	  <method abstract="false" deprecated="not deprecated" final="false" name="InjectMembers" native="false" return="void" static="false" synchronized="false" visibility="public">
+		  <parameter name="instance" type="Java.Lang.Object" />
+	  </method>
+  </add-node>
+ 
 </metadata>
