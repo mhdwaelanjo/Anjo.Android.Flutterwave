@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave", "Anjo.Android.Flutterwave\Anjo.Android.Flutterwave.csproj", "{17219001-F75C-4913-95ED-52C6C2B295B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Cache", "Anjo.Android.Flutterwave.Cache\Anjo.Android.Flutterwave.Cache.csproj", "{EF0F554A-EEDE-4E5B-9A70-1EB65D6FABE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Commons", "Anjo.Android.Flutterwave.Commons\Anjo.Android.Flutterwave.Commons.csproj", "{AE00EB15-1362-4EF7-AB7E-73285DB5A82A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Core", "Anjo.Android.Flutterwave.Core\Anjo.Android.Flutterwave.Core.csproj", "{C90891FC-821B-4C6B-B870-88F31E904A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Logger", "Anjo.Android.Flutterwave.Logger\Anjo.Android.Flutterwave.Logger.csproj", "{B30D1722-35B6-4045-9785-F80AC64F4AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Presentation", "Anjo.Android.Flutterwave.Presentation\Anjo.Android.Flutterwave.Presentation.csproj", "{4CE16AF4-FAA1-4A0F-A8A6-AD12C56F1FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Remote", "Anjo.Android.Flutterwave.Remote\Anjo.Android.Flutterwave.Remote.csproj", "{EE91717F-5B25-4C16-9E10-1A5810992E80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Utils", "Anjo.Android.Flutterwave.Utils\Anjo.Android.Flutterwave.Utils.csproj", "{2C690B69-51F6-4552-8374-2E706423C246}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17219001-F75C-4913-95ED-52C6C2B295B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17219001-F75C-4913-95ED-52C6C2B295B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17219001-F75C-4913-95ED-52C6C2B295B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17219001-F75C-4913-95ED-52C6C2B295B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0F554A-EEDE-4E5B-9A70-1EB65D6FABE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0F554A-EEDE-4E5B-9A70-1EB65D6FABE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0F554A-EEDE-4E5B-9A70-1EB65D6FABE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0F554A-EEDE-4E5B-9A70-1EB65D6FABE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE00EB15-1362-4EF7-AB7E-73285DB5A82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE00EB15-1362-4EF7-AB7E-73285DB5A82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE00EB15-1362-4EF7-AB7E-73285DB5A82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE00EB15-1362-4EF7-AB7E-73285DB5A82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90891FC-821B-4C6B-B870-88F31E904A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90891FC-821B-4C6B-B870-88F31E904A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90891FC-821B-4C6B-B870-88F31E904A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90891FC-821B-4C6B-B870-88F31E904A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30D1722-35B6-4045-9785-F80AC64F4AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30D1722-35B6-4045-9785-F80AC64F4AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30D1722-35B6-4045-9785-F80AC64F4AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30D1722-35B6-4045-9785-F80AC64F4AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE16AF4-FAA1-4A0F-A8A6-AD12C56F1FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE16AF4-FAA1-4A0F-A8A6-AD12C56F1FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE16AF4-FAA1-4A0F-A8A6-AD12C56F1FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE16AF4-FAA1-4A0F-A8A6-AD12C56F1FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE91717F-5B25-4C16-9E10-1A5810992E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE91717F-5B25-4C16-9E10-1A5810992E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE91717F-5B25-4C16-9E10-1A5810992E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE91717F-5B25-4C16-9E10-1A5810992E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C690B69-51F6-4552-8374-2E706423C246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C690B69-51F6-4552-8374-2E706423C246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C690B69-51F6-4552-8374-2E706423C246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C690B69-51F6-4552-8374-2E706423C246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9CFDBB0-7590-4BFE-BF11-DF5FB570FF98}
+	EndGlobalSection
+EndGlobal
