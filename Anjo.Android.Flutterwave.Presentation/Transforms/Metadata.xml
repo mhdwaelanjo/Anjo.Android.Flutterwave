@@ -58,11 +58,11 @@
   <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.zmmobilemoney']/class[@name='ZmMobileMoneyHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
   <attr name="return" path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.ussd']/class[@name='UssdHandler_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
  
-  <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation']/class[@name='RaveNonUIManager']/method[@name='initialize' and count(parameter)=0]" />
+  <!--<remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation']/class[@name='RaveNonUIManager']/method[@name='initialize' and count(parameter)=0]" />
   <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation']/class[@name='RaveNonUIManager']">
 	  <method abstract="false" deprecated="not deprecated" final="false" name="Initialize" native="false" return="Com.Flutterwave.Raveandroid.Rave_presentation.RavePayManager" static="false" synchronized="false" visibility="public">
 	  </method>
-  </add-node>
+  </add-node>-->
 
   <remove-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.account']/class[@name='AccountHandler_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='com.flutterwave.raveandroid.rave_presentation.account.AccountHandler']]" />
   <add-node path="/api/package[@name='com.flutterwave.raveandroid.rave_presentation.account']/class[@name='AccountHandler_MembersInjector']">
