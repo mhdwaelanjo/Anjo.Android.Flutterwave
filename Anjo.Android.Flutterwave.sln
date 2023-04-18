@@ -1,23 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.33424.131
+VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave", "Anjo.Android.Flutterwave\Anjo.Android.Flutterwave.csproj", "{17219001-F75C-4913-95ED-52C6C2B295B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave", "Anjo.Android.Flutterwave\Anjo.Android.Flutterwave.csproj", "{CBE937F0-4C08-4404-BD7D-A646F3BB0AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Cache", "Anjo.Android.Flutterwave.Cache\Anjo.Android.Flutterwave.Cache.csproj", "{EF0F554A-EEDE-4E5B-9A70-1EB65D6FABE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Cache", "Anjo.Android.Flutterwave.Cache\Anjo.Android.Flutterwave.Cache.csproj", "{96BAF149-24D9-45B2-AD18-D444937AE74E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Commons", "Anjo.Android.Flutterwave.Commons\Anjo.Android.Flutterwave.Commons.csproj", "{AE00EB15-1362-4EF7-AB7E-73285DB5A82A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Commons", "Anjo.Android.Flutterwave.Commons\Anjo.Android.Flutterwave.Commons.csproj", "{4C91C1D9-9FAD-481D-93FB-8DD4253E8D90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Core", "Anjo.Android.Flutterwave.Core\Anjo.Android.Flutterwave.Core.csproj", "{C90891FC-821B-4C6B-B870-88F31E904A89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Core", "Anjo.Android.Flutterwave.Core\Anjo.Android.Flutterwave.Core.csproj", "{128F2F22-25F9-45FA-82CD-346D7AC259C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Logger", "Anjo.Android.Flutterwave.Logger\Anjo.Android.Flutterwave.Logger.csproj", "{B30D1722-35B6-4045-9785-F80AC64F4AD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Logger", "Anjo.Android.Flutterwave.Logger\Anjo.Android.Flutterwave.Logger.csproj", "{7B7F5CD2-5D77-479E-9887-64EA7743C2FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Presentation", "Anjo.Android.Flutterwave.Presentation\Anjo.Android.Flutterwave.Presentation.csproj", "{4CE16AF4-FAA1-4A0F-A8A6-AD12C56F1FC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Presentation", "Anjo.Android.Flutterwave.Presentation\Anjo.Android.Flutterwave.Presentation.csproj", "{5A4031EE-761F-403F-959D-FE32DF14A469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Remote", "Anjo.Android.Flutterwave.Remote\Anjo.Android.Flutterwave.Remote.csproj", "{EE91717F-5B25-4C16-9E10-1A5810992E80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Remote", "Anjo.Android.Flutterwave.Remote\Anjo.Android.Flutterwave.Remote.csproj", "{FBF95A58-BF9D-498D-B7C4-907EDC017B06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Utils", "Anjo.Android.Flutterwave.Utils\Anjo.Android.Flutterwave.Utils.csproj", "{2C690B69-51F6-4552-8374-2E706423C246}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Flutterwave.Utils", "Anjo.Android.Flutterwave.Utils\Anjo.Android.Flutterwave.Utils.csproj", "{4A609A45-A935-402B-A370-0CB1849DF141}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,43 +25,43 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{17219001-F75C-4913-95ED-52C6C2B295B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17219001-F75C-4913-95ED-52C6C2B295B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17219001-F75C-4913-95ED-52C6C2B295B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17219001-F75C-4913-95ED-52C6C2B295B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF0F554A-EEDE-4E5B-9A70-1EB65D6FABE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF0F554A-EEDE-4E5B-9A70-1EB65D6FABE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF0F554A-EEDE-4E5B-9A70-1EB65D6FABE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF0F554A-EEDE-4E5B-9A70-1EB65D6FABE2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE00EB15-1362-4EF7-AB7E-73285DB5A82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE00EB15-1362-4EF7-AB7E-73285DB5A82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE00EB15-1362-4EF7-AB7E-73285DB5A82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE00EB15-1362-4EF7-AB7E-73285DB5A82A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C90891FC-821B-4C6B-B870-88F31E904A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C90891FC-821B-4C6B-B870-88F31E904A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C90891FC-821B-4C6B-B870-88F31E904A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C90891FC-821B-4C6B-B870-88F31E904A89}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B30D1722-35B6-4045-9785-F80AC64F4AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B30D1722-35B6-4045-9785-F80AC64F4AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B30D1722-35B6-4045-9785-F80AC64F4AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B30D1722-35B6-4045-9785-F80AC64F4AD6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4CE16AF4-FAA1-4A0F-A8A6-AD12C56F1FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4CE16AF4-FAA1-4A0F-A8A6-AD12C56F1FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4CE16AF4-FAA1-4A0F-A8A6-AD12C56F1FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4CE16AF4-FAA1-4A0F-A8A6-AD12C56F1FC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE91717F-5B25-4C16-9E10-1A5810992E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE91717F-5B25-4C16-9E10-1A5810992E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE91717F-5B25-4C16-9E10-1A5810992E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE91717F-5B25-4C16-9E10-1A5810992E80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2C690B69-51F6-4552-8374-2E706423C246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C690B69-51F6-4552-8374-2E706423C246}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C690B69-51F6-4552-8374-2E706423C246}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C690B69-51F6-4552-8374-2E706423C246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE937F0-4C08-4404-BD7D-A646F3BB0AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE937F0-4C08-4404-BD7D-A646F3BB0AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE937F0-4C08-4404-BD7D-A646F3BB0AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE937F0-4C08-4404-BD7D-A646F3BB0AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BAF149-24D9-45B2-AD18-D444937AE74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BAF149-24D9-45B2-AD18-D444937AE74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BAF149-24D9-45B2-AD18-D444937AE74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BAF149-24D9-45B2-AD18-D444937AE74E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C91C1D9-9FAD-481D-93FB-8DD4253E8D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C91C1D9-9FAD-481D-93FB-8DD4253E8D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C91C1D9-9FAD-481D-93FB-8DD4253E8D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C91C1D9-9FAD-481D-93FB-8DD4253E8D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128F2F22-25F9-45FA-82CD-346D7AC259C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128F2F22-25F9-45FA-82CD-346D7AC259C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128F2F22-25F9-45FA-82CD-346D7AC259C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128F2F22-25F9-45FA-82CD-346D7AC259C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7F5CD2-5D77-479E-9887-64EA7743C2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7F5CD2-5D77-479E-9887-64EA7743C2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7F5CD2-5D77-479E-9887-64EA7743C2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7F5CD2-5D77-479E-9887-64EA7743C2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4031EE-761F-403F-959D-FE32DF14A469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4031EE-761F-403F-959D-FE32DF14A469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4031EE-761F-403F-959D-FE32DF14A469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4031EE-761F-403F-959D-FE32DF14A469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF95A58-BF9D-498D-B7C4-907EDC017B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF95A58-BF9D-498D-B7C4-907EDC017B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF95A58-BF9D-498D-B7C4-907EDC017B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF95A58-BF9D-498D-B7C4-907EDC017B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A609A45-A935-402B-A370-0CB1849DF141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A609A45-A935-402B-A370-0CB1849DF141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A609A45-A935-402B-A370-0CB1849DF141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A609A45-A935-402B-A370-0CB1849DF141}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F9CFDBB0-7590-4BFE-BF11-DF5FB570FF98}
+		SolutionGuid = {8F238682-9F9C-4359-B9B7-0E8E6DA31F26}
 	EndGlobalSection
 EndGlobal

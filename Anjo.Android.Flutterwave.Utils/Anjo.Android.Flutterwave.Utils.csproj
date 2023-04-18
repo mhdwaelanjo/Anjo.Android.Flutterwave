@@ -1,93 +1,57 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2C690B69-51F6-4552-8374-2E706423C246}</ProjectGuid>
-    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Anjo.Android.Flutterwave.Utils</RootNamespace>
-    <AssemblyName>Anjo.Android.Flutterwave.Utils</AssemblyName>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>True</Deterministic>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
-    <AndroidClassParser>class-parse</AndroidClassParser>
-    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
-    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>portable</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>portable</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="Mono.Android" />
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Jars\AboutJars.txt" />
-    <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\rave_utils-release.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <TransformFile Include="Transforms\Metadata.xml" />
-    <TransformFile Include="Transforms\EnumFields.xml" />
-    <TransformFile Include="Transforms\EnumMethods.xml" />
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
-  <ItemGroup>
-    <PackageReference Include="Square.OkHttp3" Version="4.9.3.2" />
-    <PackageReference Include="Square.OkHttp3.LoggingInterceptor">
-      <Version>4.6.0</Version>
-    </PackageReference>
-    <PackageReference Include="Square.Retrofit2" Version="2.9.0" />
-    <PackageReference Include="Square.Retrofit2.ConverterGson" Version="2.9.0" />
-    <PackageReference Include="Square.Retrofit2.ConverterScalars">
-      <Version>2.9.0</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.0.1" />
-    <PackageReference Include="Xamarin.AndroidX.CardView" Version="1.0.0.18" />
-    <PackageReference Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.3" />
-    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.16" />
-    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.7.0.2" />
-    <PackageReference Include="Xamarin.Google.Dagger" Version="2.44.2.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Anjo.Android.Flutterwave.Logger\Anjo.Android.Flutterwave.Logger.csproj">
-      <Project>{b30d1722-35b6-4045-9785-f80ac64f4ad6}</Project>
-      <Name>Anjo.Android.Flutterwave.Logger</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Anjo.Android.Flutterwave.Remote\Anjo.Android.Flutterwave.Remote.csproj">
-      <Project>{ee91717f-5b25-4c16-9e10-1a5810992e80}</Project>
-      <Name>Anjo.Android.Flutterwave.Remote</Name>
-    </ProjectReference>
-  </ItemGroup>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net7.0-android;net6.0-android;</TargetFrameworks>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Anjo.Android.Flutterwave.Utils</PackageId>
+		<PackageVersion>2.1.39.1</PackageVersion>
+		<AssemblyVersion>2.1.39.1</AssemblyVersion>
+		<FileVersion>2.1.39.1</FileVersion>
+		<Version>2.1.39.1</Version>
+		<Title>Anjo Android Flutterwave SDK</Title>
+		<Authors>Wael Anjo</Authors>
+		<Owners>Wael Anjo</Owners>
+		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Flutterwave</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Flutterwave SDK</Description>
+		<PackageReleaseNotes>Flutterwave.Utils SDK v2.1.39.1</PackageReleaseNotes>
+		<Copyright>Copyright (c) 2023 Wael Anjo</Copyright>
+		<PackageTags>Xamarin.Android, Flutterwave, Android, credit cards, Payment Gateway, Money, Bank_Account, Wallet, Cards</PackageTags>
+		<Summary>Flutterwave's Android SDK can be used to integrate the Flutterwave payment gateway into your android app. It comes with a ready-made Drop In UI and non-UI module, depending on your preference.</Summary>
+		<!-- Include symbol files (*.pdb) in the built .nupkg -->
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Square.OkHttp3" Version="4.9.3.2" />
+		<PackageReference Include="Square.OkHttp3.LoggingInterceptor" Version="4.6.0" />
+		<PackageReference Include="Square.Retrofit2" Version="2.9.0" />
+		<PackageReference Include="Square.Retrofit2.ConverterGson" Version="2.9.0" />
+		<PackageReference Include="Square.Retrofit2.ConverterScalars" Version="2.9.0" />
+		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.0.1" />
+		<PackageReference Include="Xamarin.AndroidX.CardView" Version="1.0.0.18" />
+		<PackageReference Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.3" />
+		<PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.16" />
+		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.7.0.2" />
+		<PackageReference Include="Xamarin.Google.Dagger" Version="2.44.2.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Anjo.Android.Flutterwave.Logger\Anjo.Android.Flutterwave.Logger.csproj" />
+	  <ProjectReference Include="..\Anjo.Android.Flutterwave.Remote\Anjo.Android.Flutterwave.Remote.csproj" />
+	</ItemGroup>
 </Project>
