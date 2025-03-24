@@ -1,16 +1,16 @@
-# Anjo.Android.Flutterwave
+# Anjo.Android.Flutterwave.Utils
 
 ---------------------------------
-Flutterwave SDK for .NET Android (formerly Xamarin.Android) bindings for AndroidX library - Wael Anjo
+Flutterwave.Utils SDK for .NET Android (formerly Xamarin.Android) bindings for AndroidX library - Wael Anjo
 ---------------------------------
 
-[![NuGet](https://buildstats.info/nuget/Anjo.Android.Flutterwave)](https://www.nuget.org/packages/Anjo.Android.Flutterwave/)
+[![NuGet Version](https://img.shields.io/nuget/v/Anjo.Android.Flutterwave.Utils)](https://www.nuget.org/packages/Anjo.Android.Flutterwave.Utils) [![GitHub License](https://img.shields.io/github/license/mhdwaelanjo/Anjo.Android.Flutterwave)](https://github.com/mhdwaelanjo/Anjo.Android.Flutterwave/blob/master/LICENSE.txt)
 
 Flutterwave's Android SDK can be used to integrate the Flutterwave payment gateway into your android app. It comes with a ready-made Drop In UI and non-UI module, depending on your preference.
 The payment methods currently supported are Cards, USSD, Mpesa, GH Mobile Money, UG Mobile Money, ZM Mobile Money, Rwanda Mobile Money, Franc Mobile Money, US ACH, UK Bank, SA Bank, Nigeria Bank Account, Nigeria Bank Transfer, Barter Mobile Wallet.
 https://developer.flutterwave.com/
 
-<img alt="Screenshot of Drop-In" src="https://i.imgur.com/UZZkC6e.png" width="900"/>
+![](https://i.imgur.com/UZZkC6e.png)
 
 ## Before you begin
 - Ensure you have your test (and live) [API keys](https://developer.flutterwave.com/docs/api-keys).
