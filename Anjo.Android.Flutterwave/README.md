@@ -1,7 +1,7 @@
 # Anjo.Android.Flutterwave
 
 ---------------------------------
-Flutterwave.Cache SDK for .NET Android (formerly Xamarin.Android) bindings for AndroidX library - Wael Anjo
+Flutterwave SDK for .NET Android (formerly Xamarin.Android) bindings for AndroidX library - Wael Anjo
 ---------------------------------
 
 [![NuGet Version](https://img.shields.io/nuget/v/Anjo.Android.Flutterwave)](https://www.nuget.org/packages/Anjo.Android.Flutterwave) [![GitHub License](https://img.shields.io/github/license/mhdwaelanjo/Anjo.Android.Flutterwave)](https://github.com/mhdwaelanjo/Anjo.Android.Flutterwave/blob/master/LICENSE.txt)
